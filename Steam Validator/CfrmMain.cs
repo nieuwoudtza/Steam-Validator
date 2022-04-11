@@ -127,7 +127,7 @@ namespace Steam_Validator
                                 {
                                     if (steams[j].MainWindowTitle.ToLower().StartsWith("validating steam files"))
                                     {
-                                        ShowWindow(steams[j].MainWindowHandle, ShowWindowEnum.ForceMinimized);
+                                        //ShowWindow(steams[j].MainWindowHandle, ShowWindowEnum.ForceMinimized);
                                         verifyWindow = steams[j];
                                         assigned = true;
                                         break;
